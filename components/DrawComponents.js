@@ -54,6 +54,7 @@ const DrawComponents = ({ setDrawOptions }) => {
           isMulti
           options={people}
           onChange={(e) => setDrawOptions(e)}
+          isSearchable={false}
         />
       </div>
       <div
